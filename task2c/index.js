@@ -1,4 +1,4 @@
-let correctAnswer = 70;
+let correctAnswer = 7;
 function double(num) {
   return num * 2;
 }
@@ -8,21 +8,20 @@ function square(num) {
 }
 
 function multiply(a, b) {
-   a * b;
+   return a * b;
 }
 
 function add(a, b) {
-  a = String(a);
   return a + b;
 }
 
 function calc(numA, numB) {
-  numA = double(numA);
+/*   numA = double(numA);
   numA = square(numA);
   numA = multiply(numA, numB);
-  numA = add(1, numA);
+  numA = add(numA, numB); */
 
-  let answer = add(numA, numB) + 1;
+  let answer = add(numA, numB) +1;
   if (correctAnswer === answer) {
     return (`Correct answer! You fixed all the bugs. Well done`);
   } else {

@@ -1,16 +1,1 @@
-{"name": "task2b",
-"version": "1.0.0",
-"description": "",
-"main": "index.js",
-"type": "commonjs",
-  "scripts": {
-    "start": "live-server",
-    "test": "jest"
-  },
-  "devDependencies": {
-    "jest": "^29.3.1"
-  },
-  "dependencies": {
-    "live-server": "^1.2.2"
-  }
-}
+{"name":"task2b","version":"1.0.0","description":"","main":"index.js","type":"commonjs","scripts":{"start":"live-server","test":"jest"},"devDependencies":{"jest":"^29.3.1"},"dependencies":{"live-server":"^1.2.2"}}
